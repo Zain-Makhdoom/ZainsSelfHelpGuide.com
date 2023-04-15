@@ -1,0 +1,100 @@
+/*||GENERAL SETUP||*/
+html{
+    background-color: #3a5772;
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 80%;
+    min-width: 800px;
+    margin: 0 auto;
+}
+
+/*||TYPOGRAPHY||*/
+h1{
+    margin: 0;
+}
+html{
+    font-size: 10px;
+}
+h1,h2,h3{
+    font-family: "Krona One", sans-serif;
+    color: #3a5772;
+}
+p,input,li,label{
+    font-family: "Roberto-Condensed", sans-serif;
+    color: #2a2a2a;
+}
+h1{
+    font-size: 5rem;
+    text-align: center;
+    text-shadow: 3px 3px 2.5px black;
+}
+h2{
+    font-size: 3rem;
+    text-align: center;
+}
+h3{
+    font-size: 2.2rem;
+}
+p,li,label{
+    font-size: 1.6rem;
+    line-height: 1.5rem;
+}
+/*||HEADER LAYOUT||*/
+
+header{
+    background-color: #ff9500;
+    margin-bottom: 10px;
+    padding: 1%;
+}
+h1{
+    text-transform: uppercase;
+}
+
+/*||NAV BAR LAYOUT||*/
+nav{
+    background-color: #ff9500;
+    padding: 1%;
+    margin-bottom: 10px;
+}
+nav ul{
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+nav li{
+    display: inline;
+    text-align: center;
+    flex: 1;
+}
+/*||MAIN LAYOUT||*/
+main{
+    display: flex;
+}
+article{
+    background-color: #ff9500;
+    padding: 1%;
+    flex: 4;
+}
+aside{
+      background-color: #ff9500;
+    margin-left: 10px;
+    padding: 1%;
+    flex: 1;
+}
+
+main img{
+    float: left;
+    margin-right: 10px;
+ width: 300px;
+ height: auto;
+}
+/*||FOOTER LAYOUT||*/
+footer{background-color: #ff9500;
+padding: 1%;
+margin: 10px;
+}
